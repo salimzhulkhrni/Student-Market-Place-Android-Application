@@ -10,3 +10,8 @@ In this way, trust factor is leveraged to non-SU students as well.
 Features:
 --------------
 The application provides the features of adding, viewing and browsing the products, authorizing the buyers and sellers, viewing the most trending products in the user’s location, and locate the area where the product is sold.
+
+Google Play Store Link:
+-------------------------
+
+https://play.google.com/store/apps/details?id=com.salim.salimzhulkhrni.student_marketplace
