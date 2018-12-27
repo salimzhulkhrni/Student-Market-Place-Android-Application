@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+        <group android:checkableBehavior="single">
+
+            <item
+                    android:id="@+id/nav_refresh"
+                    android:icon="@drawable/ic_refresh"
+                    android:title="Home"/>
+
+            <item
+                    android:id="@+id/nav_electronics"
+                    android:icon="@drawable/ic_electronics"
+                    android:title="Electronics"/>
+            <item
+                    android:id="@+id/nav_homekitchen"
+                    android:icon="@drawable/ic_home"
+                    android:title="Home and Kitchen"/>
+            <item
+                    android:id="@+id/nav_automobiles"
+                    android:icon="@drawable/ic_automobiles"
+                    android:title="Automobiles"/>
+
+            <item
+                    android:id="@+id/nav_clothing"
+                    android:icon="@drawable/ic_clothing"
+                    android:title="Clothing"/>
+
+        </group>
+
+
+
+
+    <item android:title="Settings">
+        <menu>
+
+            <item
+                    android:id="@+id/nav_myprofile"
+                    android:icon="@drawable/ic_people"
+                    android:title="My Profile"/>
+
+            <item
+                    android:id="@+id/nav_update_details"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Update Details"/>
+
+
+            <item
+                    android:id="@+id/nav_refer"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Refer A Friend"/>
+            <item
+                    android:id="@+id/nav_signout"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Log Out"/>
+        </menu>
+    </item>
+
+</menu>

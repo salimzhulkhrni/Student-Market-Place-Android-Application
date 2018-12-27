@@ -1,0 +1,161 @@
+{
+  "project_info": {
+    "project_number": "594104124120",
+    "firebase_url": "https://stundent-market-place.firebaseio.com",
+    "project_id": "stundent-market-place",
+    "storage_bucket": "stundent-market-place.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594104124120:android:fd4bd057bf937bc7",
+        "android_client_info": {
+          "package_name": "com.example.rishabh.studentmarketplace1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594104124120-76jfob35o7k9umn1840oh4hrn4bt3hjg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfZG9Cz87KoOimM22Yfrbd4z13t2cELYo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594104124120:android:6cd13b85382f52c2",
+        "android_client_info": {
+          "package_name": "com.example.rishabh.studentmarketplace3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594104124120-rt30mtd6c2r1jcf7rg459sh3idn1atgu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rishabh.studentmarketplace3",
+            "certificate_hash": "d83fd9e1ce7f18ea31821151784cf9a99cc9ffa8"
+          }
+        },
+        {
+          "client_id": "594104124120-76jfob35o7k9umn1840oh4hrn4bt3hjg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfZG9Cz87KoOimM22Yfrbd4z13t2cELYo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594104124120-76jfob35o7k9umn1840oh4hrn4bt3hjg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594104124120:android:81ff5aef901b9dbb",
+        "android_client_info": {
+          "package_name": "com.example.salimzhulkhrni.student_marketplace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594104124120-8brr6g3u1pmba1mrvr6bujb2tnf3ud2o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.salimzhulkhrni.student_marketplace",
+            "certificate_hash": "ee13525990516948ffd5452e9c5b317dee9f5975"
+          }
+        },
+        {
+          "client_id": "594104124120-76jfob35o7k9umn1840oh4hrn4bt3hjg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfZG9Cz87KoOimM22Yfrbd4z13t2cELYo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594104124120-76jfob35o7k9umn1840oh4hrn4bt3hjg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594104124120:android:a6840bc16c35d13d",
+        "android_client_info": {
+          "package_name": "com.salim.salimzhulkhrni.student_marketplace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594104124120-76jfob35o7k9umn1840oh4hrn4bt3hjg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfZG9Cz87KoOimM22Yfrbd4z13t2cELYo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".UpdateDetailsFragment">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:background="@drawable/banner" android:id="@+id/imageView"/>
+
+    <LinearLayout
+            android:id="@+id/l3_main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="25dp"
+            android:orientation="vertical">
+
+        <EditText
+                android:id="@+id/name_update_details_frag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:textColor="#000"
+                android:background="#f0f0f4"
+                android:padding="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawableLeft="@drawable/ic_shape_1"
+                android:drawablePadding="16dp"
+        />
+
+        <EditText
+                android:id="@+id/password_update_details_frag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="#000"
+                android:background="#f0f0f4"
+                android:padding="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawableLeft="@drawable/ic_tool_6"
+                android:drawablePadding="16dp"
+        />
+
+        <EditText
+                android:id="@+id/retypepassword_update_details_frag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Retype Password"
+                android:inputType="textPassword"
+                android:textColor="#000"
+                android:background="#f0f0f4"
+                android:padding="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawableLeft="@drawable/ic_tool_6"
+                android:drawablePadding="16dp"
+        />
+
+        <EditText
+                android:id="@+id/phone_number_update_details_frag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:textColor="#000"
+                android:background="#f0f0f4"
+                android:padding="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawableLeft="@drawable/ic_shape_1"
+                android:drawablePadding="16dp"
+        />
+
+        <Button
+                android:id="@+id/updatebtn_update_details_frag"
+                android:text="Update"
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                style="@style/loginButton_MainAct"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

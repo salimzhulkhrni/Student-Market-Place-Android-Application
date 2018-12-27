@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar"/>
+
+    <EditText
+            android:id="@+id/priceOfProduct"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="8dp"
+            android:ems="5"
+            android:hint="Price"
+            android:inputType="number"
+            android:padding="15dp"
+            android:textSize="13dp"
+            app:layout_constraintBottom_toTopOf="@+id/descriptionOfProduct"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/categoryOfProduct" />
+
+    <EditText
+            android:id="@+id/nameOfProduct"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="24dp"
+            android:hint="Product Name"
+            android:padding="15dp"
+            android:textSize="13dp"
+            app:layout_constraintBottom_toTopOf="@+id/addressOfProduct"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+            android:id="@+id/addressOfProduct"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="24dp"
+            android:hint="Address"
+            android:padding="15dp"
+            android:textSize="13dp"
+            app:layout_constraintBottom_toTopOf="@+id/priceOfProduct"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+            android:id="@+id/categoryOfProduct"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="24dp"
+            android:background="@drawable/spinner"
+            app:layout_constraintBottom_toTopOf="@+id/descriptionOfProduct"
+            app:layout_constraintEnd_toStartOf="@+id/priceOfProduct"
+            app:layout_constraintStart_toStartOf="parent">
+
+    </Spinner>
+
+    <EditText
+            android:id="@+id/descriptionOfProduct"
+            android:layout_width="0dp"
+            android:layout_height="59dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="24dp"
+            android:hint="Description"
+            android:padding="15dp"
+            android:textSize="13dp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonToAddProduct"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+            android:id="@+id/buttonToAddProduct"
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Add Product"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+            android:id="@+id/imageviewForProduct"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="70dp"
+            android:padding="1dp"
+            app:layout_constraintBottom_toTopOf="@+id/nameOfProduct"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/image" />
+
+</android.support.constraint.ConstraintLayout>

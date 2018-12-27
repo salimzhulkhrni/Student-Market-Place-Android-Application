@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+            >
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="24dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MOST LIKED"
+                    android:textColor="#000000"
+                    android:textSize="15sp"/>
+
+            <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:src="@drawable/view_headline"/>
+
+            <TextView
+                    android:id="@+id/mostLikeViewAll"
+                    android:layout_width="242dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:gravity="end"
+                    android:text="View all"
+                    android:textColor="#ef4e33"
+                    android:textSize="15sp"/>
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="308dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="8dp"
+                android:clipToPadding="false"
+                android:paddingLeft="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal"
+                android:id="@+id/categoryTextView"
+                app:layout_constraintTop_toBottomOf="@+id/recyclerView" app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="24dp"
+                android:layout_marginStart="24dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CATEGORIES"
+                    android:textColor="#000000"
+                    android:textSize="15sp"/>
+
+
+            <TextView
+                    android:id="@+id/categoryViewAll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:gravity="end"
+                    android:text="View all"
+                    android:textColor="#ef4e33"
+                    android:textSize="15sp"/>
+        </LinearLayout>
+
+        <HorizontalScrollView
+                android:id="@+id/horizontalScrollView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="8dp"
+                android:scrollbars="none"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/categoryTextView">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal">
+
+                <LinearLayout
+                        android:layout_width="125dp"
+                        android:id="@+id/electronis"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                    <FrameLayout
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rect_whiteboder"
+                            android:padding="30dp">
+
+                        <ImageView
+                                android:layout_width="55dp"
+                                android:layout_height="55dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/electronics" />
+                    </FrameLayout>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Electronics"
+                            android:textColor="#000000"
+                            android:textSize="15sp" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="3dp"
+                            android:textColor="#8c8c8c"
+                            android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="125dp"
+                        android:id="@+id/homeandkitchen"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                    <FrameLayout
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rect_whiteboder"
+                            android:padding="30dp">
+
+                        <ImageView
+                                android:layout_width="55dp"
+                                android:layout_height="55dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/homeandkitchen" />
+                    </FrameLayout>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Home &amp; Kitchen"
+                            android:textColor="#000000"
+                            android:textSize="15sp" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="3dp"
+                            android:text="60+ items"
+                            android:textColor="#8c8c8c"
+                            android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="125dp"
+                        android:id="@+id/automobiles"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                    <FrameLayout
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rect_whiteboder"
+                            android:padding="30dp">
+
+                        <ImageView
+                                android:layout_width="55dp"
+                                android:layout_height="55dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/car"/>
+                    </FrameLayout>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Automobiles"
+                            android:textColor="#000000"
+                            android:textSize="15sp" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="3dp"
+                            android:text="170+ items"
+                            android:textColor="#8c8c8c"
+                            android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="125dp"
+                        android:id="@+id/clothes"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                    <FrameLayout
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rect_whiteboder"
+                            android:padding="30dp">
+
+                        <ImageView
+                                android:layout_width="55dp"
+                                android:layout_height="55dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/clothes" />
+                    </FrameLayout>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Clothes &amp; Footwear"
+                            android:textColor="#000000"
+                            android:textSize="15sp" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="3dp"
+                            android:text="90+ items"
+                            android:textColor="#8c8c8c"
+                            android:textSize="12sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="134dp"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/fab_margin"
+                app:srcCompat="@drawable/ic_add"
+                android:layout_marginStart="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.929"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toTopOf="@+id/horizontalScrollView"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.945"/>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
